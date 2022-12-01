@@ -68,9 +68,17 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
-      </style>
 
 
+      .logo-image{
+     width: 120px;
+     height: 120px;
+     border-radius: 70%;
+     overflow: hidden;
+     margin-top: -3px;
+ }
+
+    </style>
     <!-- Custom styles for this template -->
 
   </head>
@@ -81,31 +89,35 @@
 
 
   <header>
-    <!-- Fixed navbar -->
+    <!-- Fixed navbar
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="https://ross-donihue.github.io/embeddingstories/">ArcGIS StoryMaps </a>
+        <a class="navbar-brand" href="https://ross-donihue.github.io/embeddingstories/">Organization Name </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
     </nav>
-  </header>
+  </header>-->
 
-
+  <a class="navbar-brand" href="/">
+      <div class="logo-image">
+            <img src="https://raw.githubusercontent.com/ross-donihue/2022/main/NatureLogo2.png" class="img-fluid">
+      </div>
+</a>
+<!--ArcGIS StoryMap URL in an iframe width 100% important-->
 <iframe src="https://storymaps.arcgis.com/stories/c131e1298cce4673ab6b7d947be653d2" width="100%" height="1000px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
 
+<!--fixed footer-->
 <div class="container">
   <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-
     </ul>
-    <p class="text-center text-muted">&copy; 2022 ArcGIS StoryMaps Editorial</p>
+    <p class="text-center text-muted">&copy; 2022 powered by coffee</p>
   </footer>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
-
 
   </body>
 </html>
